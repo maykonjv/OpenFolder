@@ -23,11 +23,10 @@ import org.openide.util.NbBundle.Messages;
 
 @ActionReferences({
     @ActionReference(path = "Menu/File", position = 2700, separatorBefore = 2650, separatorAfter = 2750),
-    @ActionReference(path = "Toolbars/File", position = 500),
-    @ActionReference(path = "Loaders/folder/any/Actions", position = 0),
-    @ActionReference(path = "Projects/Actions", position = 0),
-    @ActionReference(path = "Projects/Actions", position = 5000),
-    @ActionReference(path = "Loaders/text/x-java/Actions", position = 0),})
+    @ActionReference(path = "Toolbars/File", position = 500), //    @ActionReference(path = "Loaders/folder/any/Actions", position = 0),
+//    @ActionReference(path = "Projects/Actions", position = 5000),
+//    @ActionReference(path = "Loaders/text/x-java/Actions", position = 0),
+})
 @Messages("CTL_OpenFolderAction=Open folder")
 public final class OpenFolderAction implements ActionListener {
 
